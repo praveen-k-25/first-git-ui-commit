@@ -1,0 +1,38 @@
+.parent{
+    position: relative;
+}
+.child{
+
+}
+.child-one{
+    position: relative;
+    top:0px;
+    left: 20px;
+}
+.child-two{
+    position: absolute;
+    top: 0;
+    bottom:5 ;
+    left: 10;
+    right:6;
+}
+.child-third{
+    
+}
+div .fi{
+
+    margin-left: 20px ;
+    width: 10px;
+    height: 50px;
+    background-color: aqua;
+    
+}
+div .fi::before{
+    content: 'Delhi is the capital of india';
+    width: auto;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    left: 100px;
+    padding: 13px;
+}

@@ -1,0 +1,26 @@
+.link{
+    background-color: cyan;
+    border: 0;
+    padding:18px 20px;
+    border-radius: 20px;
+}
+.link:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.read{
+    background-color: rgb(10, 231, 76);
+    color: rgb(8, 7, 7);
+    padding: 15px;
+}
+.read:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.read:active{
+    background-color: rgb(255, 217, 0);
+    color: brown;
+}
+.read:link{
+    color: rgb(250, 252, 250);
+}

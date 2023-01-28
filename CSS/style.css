@@ -1,0 +1,20 @@
+/*universal selector*/
+*{   /*select all the tags in html*/
+    background : aquamarine;
+    color: rgb(162, 228, 9);
+}
+
+/*class selector*/
+.one{   /*select the all class named has the name eg: one */
+    color: blueviolet;
+}
+
+/*id selector*/
+#heading{
+    color: red;
+}
+
+/*only select p tags with class name one*/
+p.one{
+background-color: yellow;
+}

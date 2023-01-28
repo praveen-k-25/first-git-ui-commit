@@ -1,0 +1,10 @@
+/*all desendent p tag of div tag are colored as below*/
+div p{
+    color: aqua;
+}
+div .para{
+    color: red;
+}
+span{
+    background-color: chartreuse ;
+}
